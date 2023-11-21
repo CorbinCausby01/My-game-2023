@@ -34,7 +34,7 @@ public class ThirdPersonMovement : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             //will move in the direction of input along with the set 6f speed. Time.deltatime makes framerate independent
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
-            //update
+            //github test
         }
     }
 }
